@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Main, Nav, Body } from "./styled";
 import About from "../../components/About/About";
 import Abilitys from "../../components/Abilitys/Abilitys";
@@ -26,7 +26,7 @@ const Home = () => {
         <div>
           <h1>Matheus Castro</h1>
           <container>
-          <button onClick={scrollToStart}> Inicio </button>
+          <button onClick={scrollToStart}> Início </button>
           <button onClick={scrollToAbout}> Sobre </button>
           <button onClick={scrollToAbility}> Habilidades </button>
           <button onClick={scrollToProject}> Projetos </button>

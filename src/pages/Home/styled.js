@@ -19,13 +19,20 @@ export const Body = styled.body`
 `;
 
 export const Nav = styled.div`
-  background-color: transparent;
+   background-image: linear-gradient(
+    90deg,
+    rgb(53, 69, 117) 5%,
+    rgb(33, 45, 82) 20%,
+    rgb(19, 19, 31) 60%
+  );
   color: white;
   width: 100%;
-  height: 7vh;
+  height: 6vh;
   position: fixed;
   display: flex;
   justify-content: center;
+  border-bottom: 1px groove white;
+  z-index: 1;
 
   div {
     display: flex;

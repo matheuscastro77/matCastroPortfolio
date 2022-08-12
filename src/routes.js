@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/1Home/Home';
+import Home from './pages/Home/Home';
 
 
 
@@ -11,10 +11,6 @@ const RoutesApp = () => {
         <BrowserRouter>
             <Routes>
             <Route path="/" element ={<Home />} />
-{/*             <Route path="/sobre" element ={<About />} />
-            <Route path="/habilidades" element ={<Abilitys />} />
-            <Route path="/projetos" element ={<Project />} />
-            <Route path="/contato" element ={<Contact />} /> */}
             </Routes>
         </BrowserRouter>
     )
