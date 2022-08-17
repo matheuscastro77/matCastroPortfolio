@@ -17,9 +17,9 @@ const Start = () => {
       <img src={codetyping} />
       </Container>
       <DivIcons>
-      <img src={github} />
-      <img src={linkedin} />
-      <img src={email} />
+      <a href="https://github.com/matheuscastro77" target="_blank"> <img src={github} /> </a>
+      <a href="mailto:matheuscastro1997@hotmail.com" target="_blank"> <img src={email} /> </a>
+      <a href="https://www.linkedin.com/in/matheus-castro-541a57140/" target="_blank"> <img src={linkedin} />  </a>
       </DivIcons>
     </Main>
   )

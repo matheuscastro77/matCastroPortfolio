@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,
@@ -15,7 +15,7 @@ export const Main = styled.main`
 `
 
 export const Container = styled.div`
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,6 +27,7 @@ export const Container = styled.div`
 
     h2{
       font-size: 1.8rem;
+      margin-bottom: 7%;
     }
 
     h3 {
@@ -36,6 +37,6 @@ export const Container = styled.div`
   }
 
   img{
-    margin-top: 3%;
+    width: 30%;
   }
 `

@@ -10,11 +10,12 @@ export const Main = styled.main`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 `;
 
 export const Container = styled.div`
+  margin-top: 8%;
   width: 75%;
   display: flex;
   justify-content: space-around;
@@ -46,7 +47,15 @@ export const Container = styled.div`
 `;
 
 export const DivIcons = styled.div`
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+
   img{
-    width: 30%;
+    width: 35%;
+    
+    :hover{
+      cursor: pointer;
+    }
   }
 `

@@ -1,6 +1,6 @@
 import React from "react";
 import { Main, Container } from "./styled";
-import dev from "../../assets/dev.gif";
+import about from "../../assets/about.svg";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
             trabalhar todos os dias.
           </h3>
         </div>
-        <img src={dev} />
+        <img src={about} />
       </Container>
     </Main>
   );
