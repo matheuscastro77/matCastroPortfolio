@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "./static/js/main.41bcb568.js",
+    "static/media/pokemon.png": "./static/media/pokemon.74609cf4f00b928c27fb.png",
+    "static/media/slaca.png": "./static/media/slaca.861e7cc3b64439ee23db.png",
+    "static/media/meta.png": "./static/media/meta.d745a3c51bef9c3f738e.png",
+    "static/media/pharma.png": "./static/media/pharma.89381b196d089ffd34b0.png",
+    "static/media/covid-daily.png": "./static/media/covid-daily.88340f568a58b1ff6450.png",
+    "static/media/ecommerce.png": "./static/media/ecommerce.06e96d000268d6378440.png",
+    "static/media/apexcharts.png": "./static/media/apexcharts.72eccaa34594ceced8b3.png",
+    "static/media/linkedin.png": "./static/media/linkedin.a2b822d3e775f5b01935.png",
+    "static/media/about.svg": "./static/media/about.534e0e3b6faca57e6c72dbf740583c26.svg",
+    "static/media/codetyping.svg": "./static/media/codetyping.1eb3a0276c599332ff0646e59041ee04.svg",
+    "static/media/static.svg": "./static/media/static.be3f471d21a244f9eeeee7ada43911d0.svg",
+    "static/media/github.png": "./static/media/github.5329f8c52315ba3f6e86.png",
+    "static/media/project.svg": "./static/media/project.3fc2b35c5bb821aeec54c13fb9dde9f9.svg",
+    "index.html": "./index.html",
+    "main.41bcb568.js.map": "./static/js/main.41bcb568.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.41bcb568.js"
+  ]
+}
