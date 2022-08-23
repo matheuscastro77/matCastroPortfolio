@@ -39,7 +39,7 @@ export const ContainerProjects = styled.div`
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 20px 50px;
   overflow: auto;
   overflow-y: hidden;
   padding-bottom: 1%;
@@ -60,9 +60,7 @@ export const BoxProject = styled.div`
   display: flex;
   flex-direction: column;
   height: 28vh;
-  width: 20vw;
-  margin: 0 auto;
-  justify-content: flex-start;
+  width: 19.5vw;
   background-color: #2f2e41;
   align-items: center;
   color: #E6E6E6;
