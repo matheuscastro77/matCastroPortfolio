@@ -1,24 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.div``;
-
-export const Body = styled.body`
-  overflow-y: auto;
-
-  ::-webkit-scrollbar-track {
-    background-color: red;
-    border-radius: 3px;
-  }
-  ::-webkit-scrollbar {
-    width: 12px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: yellow;
-    border-radius: 3px;
-  }
-`;
-
-export const Nav = styled.div`
+export const Nav = styled.nav`
    background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,

@@ -17,10 +17,9 @@ export const Main = styled.main`
 export const Container = styled.div`
   width: 80%;
   display: flex;
-  margin-top: 0px;
 
   h2 {
-    color: white;
+    color: #E6E6E6;
     font-size: 1.8rem;
   }
 

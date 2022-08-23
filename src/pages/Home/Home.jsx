@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Main, Nav, Body } from "./styled";
+import { Nav } from "./styled";
 import About from "../../components/About/About";
 import Abilitys from "../../components/Abilitys/Abilitys";
 import Project from "../../components/Project/Project";
@@ -21,7 +21,7 @@ const Home = () => {
   const scrollToContact = () => ScrollContact.current.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <Main>
+    <>
       <Nav>
         <div>
           <h1>Matheus Castro</h1>
@@ -34,7 +34,6 @@ const Home = () => {
           </container>
         </div>
       </Nav>
-      <Body>
         <div ref={ScrollStart}>
           <Start />
         </div>
@@ -55,8 +54,7 @@ const Home = () => {
         {" "}
         <Contact />{" "}
       </div>
-      </Body>
-    </Main>
+    </>
   );
 };
 

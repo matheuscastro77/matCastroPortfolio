@@ -1,6 +1,6 @@
 import React from "react";
 import { Main, Container, BoxAbilitys, BoxImg } from "./styled";
-import abilitys from "../../assets/abilitys.svg";
+import abilitys from "../../assets/static.svg";
 import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import ts from "../../assets/ts.png";
@@ -11,6 +11,7 @@ const Abilitys = () => {
   return (
     <Main>
       <Container>
+        <img src={abilitys} />
         <BoxAbilitys>
           <h2>Habilidades</h2>
           <BoxImg>
@@ -32,7 +33,7 @@ const Abilitys = () => {
           </div>
           </BoxImg>
         </BoxAbilitys>
-        <img src={abilitys} />
+        
       </Container>
     </Main>
   );

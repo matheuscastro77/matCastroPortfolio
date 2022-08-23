@@ -21,7 +21,7 @@ export const Container = styled.div`
   align-items: center;
 
   div {
-    color: white;
+    color: #E6E6E6;
     text-align: center;
     width: 60%;
 
