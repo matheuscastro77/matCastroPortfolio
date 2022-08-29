@@ -46,13 +46,14 @@ export const Container = styled.div`
 
   ::-webkit-scrollbar-track {
     background-color: #E6E6E6;
-    
+    width: 7 0%;
   }
   ::-webkit-scrollbar {
     height: 15px;
   }
   ::-webkit-scrollbar-thumb {
     background: #13131F;
+    width: 30%;
   }
 `
 

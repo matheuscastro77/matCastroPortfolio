@@ -22,7 +22,7 @@ export const Container = styled.div`
   align-items: center;
 
   div {
-    color: #E6E6E6;
+    color: #e6e6e6;
     text-align: left;
 
     h1 {
@@ -40,22 +40,24 @@ export const Container = styled.div`
       margin: 5px 0px 5px 0px;
     }
   }
+`;
 
-  img {
-    width: 50%;
-  }
+export const ImgDev = styled.img`
+  width: 50%;
 `;
 
 export const DivIcons = styled.div`
   display: flex;
   justify-content: space-around;
   width: 75%;
+`;
 
-  img{
-    width: 35%;
-    
-    :hover{
-      cursor: pointer;
-    }
+export const Img = styled.img`
+  width: 40%;
+
+  :hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.25s ease 0s;
   }
-`
+`;

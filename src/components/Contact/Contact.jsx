@@ -1,24 +1,28 @@
 import React from 'react'
-import { Main } from './styled'
+import { BoxContact, BoxImg, Container, Main, Img, ImgPhone } from './styled'
+import github from '../../assets/github.png'
+import linkedin from '../../assets/linkedin.png'
+import email from '../../assets/e-mail.png'
+import phone from '../../assets/phone-call.png'
+import contact from '../../assets/contact.svg'
 
 const Contact = () => {
 
-  let a = 1
-  let b = 1
-  let count = 0
-
-  while (count < 10) {
-    console.log(a)
-    count += 1
-    const c = a + b
-    a = b
-    b = c
-  }
-
   return (
     <Main>
-      
-    </Main>
+    <Container>
+    <ImgPhone src={contact} />
+      <BoxContact>
+        <h2>Contato</h2>
+        <BoxImg>
+        <a href="https://github.com/matheuscastro77" target="_blank"> <Img src={github} /> </a>
+        <a href="https://www.linkedin.com/in/matheus-castro-541a57140/" target="_blank"> <Img src={linkedin} />  </a>
+        <a href="mailto:matheuscastro1997@hotmail.com" target="_blank"> <Img src={email} /> </a>
+        <a href="https://api.whatsapp.com/send/?phone=5532999767089&text&app_absent=0" target="_blank"> <Img src={phone} /> </a>
+        </BoxImg>
+      </BoxContact>
+    </Container>
+  </Main>
   )
 }
 
