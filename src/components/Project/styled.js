@@ -13,9 +13,33 @@ export const Main = styled.main`
   justify-content: center;
   flex-direction: column;
 
+  @media screen and (max-width: 1366px) {
+    height: 95vh;
+  }
+
+  @media screen and (max-width: 1280px) {
+    height: 80vh;
+  }
+
+  @media screen and (max-height: 800px) {
+    height: 90vh;
+  }
+
   h2 {
-    color: #E6E6E6;
+    color: #e6e6e6;
     font-size: 1.8rem;
+
+    @media screen and (max-width: 1440px) {
+      font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 1366px) {
+      font-size: 1.4rem;
+    }
+
+    @media screen and (max-height: 800px) {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -27,6 +51,14 @@ export const Body = styled.body`
   img {
     width: 40%;
     height: 115%;
+
+    @media screen and (max-width: 1366px) {
+      height: 130%;
+    }
+
+    @media screen and (max-width: 1280px) {
+      height: 110%;
+  }
   }
 `;
 
@@ -45,17 +77,17 @@ export const Container = styled.div`
   padding-bottom: 1%;
 
   ::-webkit-scrollbar-track {
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     width: 7 0%;
   }
   ::-webkit-scrollbar {
     height: 15px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #13131F;
+    background: #13131f;
     width: 30%;
   }
-`
+`;
 
 export const BoxProject = styled.div`
   display: flex;
@@ -64,27 +96,63 @@ export const BoxProject = styled.div`
   width: 19.5vw;
   background-color: #2f2e41;
   align-items: center;
-  color: #E6E6E6;
+  color: #e6e6e6;
+
+  @media screen and (max-width: 1600px) {
+    height: 30vh;
+  }
+
+  @media screen and (max-width: 1366px) {
+    height: 31vh;
+  }
+
+  @media screen and (max-width: 1280px) {
+    height: 24vh;
+  }
+
+  @media screen and (max-height: 768px) {
+    height: 28vh;
+  }
 
   img {
     width: 100%;
     height: 60%;
   }
 
-  div{
+  div {
     width: 50%;
     display: flex;
     justify-content: space-around;
   }
 
+  h3 {
+    @media screen and (max-width: 1768px) {
+      font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 1366px) {
+      font-size: 1rem;
+    }
+  }
+
   button {
-    border: 2px solid #E6E6E6;
+    border: 2px solid #e6e6e6;
     background-color: transparent;
-    color: #E6E6E6;
+    color: #e6e6e6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
+
+    @media screen and (max-width: 1768px) {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width: 1366px) {
+      font-size: 0.9rem;
+      border: 1px solid #e6e6e6;
+      margin-bottom: 1%;
+    }
 
     :hover {
       cursor: pointer;

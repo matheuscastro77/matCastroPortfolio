@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-   background-image: linear-gradient(
+  background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,
     rgb(33, 45, 82) 20%,
@@ -21,12 +21,27 @@ export const Nav = styled.nav`
     justify-content: space-around;
     align-items: center;
     width: 78%;
+
+    @media screen and (max-width: 1440px) {
+      width: 90%;
+    }
     h1 {
       font-size: 1.8rem;
       font-weight: 600;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
+      @media screen and (max-width: 1440px) {
+        font-size: 1.6rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 1.4rem;
+      }
+
+      @media screen and (max-height: 800px) {
+        font-size: 1.2rem;
+      }
       :hover {
         cursor: pointer;
         transform: scale(1.05);
@@ -49,6 +64,18 @@ export const Nav = styled.nav`
         font-size: 1.2rem;
         font-weight: 600;
         color: white;
+
+        @media screen and (max-width: 1440px) {
+          font-size: 1.1rem;
+        }
+
+        @media screen and (max-width: 1366px) {
+          font-size: 1rem;
+        }
+
+        @media screen and (max-height: 800px) {
+          font-size: 0.9rem;
+        }
 
         :hover {
           cursor: pointer;

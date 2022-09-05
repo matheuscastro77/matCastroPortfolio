@@ -12,6 +12,16 @@ export const Main = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1280px) {
+    height: 40vh;
+  }
+
+  @media screen and (max-height: 800px) {
+    height: 50vh;
+  }
+
+
 `;
 
 export const Container = styled.div`
@@ -21,6 +31,18 @@ export const Container = styled.div`
   h2 {
     color: #e6e6e6;
     font-size: 1.8rem;
+
+    @media screen and (max-width: 1440px) {
+      font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 1366px) {
+      font-size: 1.4rem;
+    }
+
+    @media screen and (max-height: 800px) {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -45,6 +67,18 @@ export const BoxImg = styled.div`
 
 export const Img = styled.img`
   width: 50%;
+
+  @media screen and (max-width: 1768px) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: 1440px) {
+    width: 36%;
+  }
+
+  @media screen and (max-width: 1366px) {
+    width: 32%;
+  }
 
   :hover {
     cursor: pointer;

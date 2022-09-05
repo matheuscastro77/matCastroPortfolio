@@ -12,6 +12,10 @@ export const Main = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1280px) {
+    height: 60vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -19,8 +23,16 @@ export const Container = styled.div`
   display: flex;
 
   h2 {
-    color: #E6E6E6;
+    color: #e6e6e6;
     font-size: 1.8rem;
+
+    @media screen and (max-width: 1440px) {
+      font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 1366px) {
+      font-size: 1.4rem;
+    }
   }
 
   img {
@@ -34,29 +46,37 @@ export const BoxAbilitys = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-`
+`;
 
 export const BoxImg = styled.div`
   display: flex;
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
-  
-  div{
+
+  div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 18%;
     height: 15vh;
- 
-    img{
+
+    img {
       width: 75%;
 
-      :hover{
+      @media screen and (max-width: 1768px) {
+        width: 65%;
+      }
+
+      @media screen and (max-width: 1366px) {
+        width: 55%;
+      }
+
+      :hover {
         cursor: pointer;
         transform: scale(1.05);
         transition: all 0.25s ease 0s;
       }
     }
   }
-`
+`;

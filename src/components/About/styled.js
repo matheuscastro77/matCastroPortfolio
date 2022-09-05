@@ -12,6 +12,14 @@ export const Main = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1280px) {
+    height: 60vh;
+  }
+
+  @media screen and (max-height: 800px) {
+    height: 75vh;
+  }
 `
 
 export const Container = styled.div`
@@ -28,11 +36,27 @@ export const Container = styled.div`
     h2{
       font-size: 1.8rem;
       margin-bottom: 7%;
+
+      @media screen and (max-width: 1768px) {
+        font-size: 1.6rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 1.4rem;
+      }
     }
 
     h3 {
       font-size: 1.2rem;
       font-weight: 600;
+
+      @media screen and (max-width: 1768px) {
+        font-size: 1.1rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 0.9rem;
+      }
     }
   }
 

@@ -12,6 +12,14 @@ export const Main = styled.main`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
+  @media screen and (max-width: 1280px) {
+    height: 70vh;
+  }
+
+  @media screen and (max-height: 800px) {
+    height: 100vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -28,16 +36,52 @@ export const Container = styled.div`
     h1 {
       font-size: 2.8rem;
       margin: 5px 0px 5px 0px;
+
+      @media screen and (max-width: 1768px) {
+        font-size: 2.6rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 2.2rem;
+      }
+
+      @media screen and (max-height: 800px) {
+      font-size: 2rem;
+    }
     }
 
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       margin: 5px 0px 5px 0px;
+
+      @media screen and (max-width: 1768px) {
+        font-size: 1.1rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 1rem;
+      }
+
+      @media screen and (max-height: 800px) {
+      font-size: 0.9rem;
+    }
     }
 
     h3 {
       font-size: 1.6rem;
       margin: 5px 0px 5px 0px;
+
+      @media screen and (max-width: 1768px) {
+        font-size: 1.4rem;
+      }
+
+      @media screen and (max-width: 1366px) {
+        font-size: 1.2rem;
+      }
+
+      @media screen and (max-height: 800px) {
+      font-size: 1rem;
+    }
     }
   }
 `;
@@ -54,6 +98,10 @@ export const DivIcons = styled.div`
 
 export const Img = styled.img`
   width: 40%;
+
+  @media screen and (max-width: 1366px) {
+    width: 30%;
+  }
 
   :hover {
     cursor: pointer;
