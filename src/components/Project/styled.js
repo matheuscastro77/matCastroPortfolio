@@ -74,18 +74,18 @@ export const Container = styled.div`
   grid-gap: 20px 50px;
   overflow: auto;
   overflow-y: hidden;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 
   ::-webkit-scrollbar-track {
-    background-color: #e6e6e6;
-    width: 7 0%;
+    background-color: #3F3D56;
+    border-radius: 10px;
   }
   ::-webkit-scrollbar {
-    height: 15px;
+    height: 12px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #13131f;
-    width: 30%;
+    background: #E6E6E6;
+    border-radius: 10px;
   }
 `;
 

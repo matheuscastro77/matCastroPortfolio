@@ -58,10 +58,6 @@ export const Container = styled.div`
         font-size: 1.1rem;
       }
 
-      @media screen and (max-width: 1600px){
-        color: red;
-      }
-
       @media screen and (max-width: 1366px) {
         font-size: 1rem;
       }
