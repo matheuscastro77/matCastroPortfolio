@@ -25,6 +25,10 @@ export const Nav = styled.nav`
     @media screen and (max-width: 1440px) {
       width: 90%;
     }
+
+    @media screen and (max-width: 412px) {
+      width: 100%;
+    }
     h1 {
       font-size: 1.8rem;
       font-weight: 600;
@@ -55,34 +59,80 @@ export const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
 
-      button {
-        border: 0px;
-        background-color: transparent;
-        height: 2.5vh;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: white;
-
-        @media screen and (max-width: 1440px) {
-          font-size: 1.1rem;
-        }
-
-        @media screen and (max-width: 1366px) {
-          font-size: 1rem;
-        }
-
-        @media screen and (max-height: 800px) {
-          font-size: 0.9rem;
-        }
-
-        :hover {
-          cursor: pointer;
-          transform: scale(1.05);
-          transition: all 0.25s ease 0s;
-        }
+      @media screen and (max-width: 412px) {
+        display: none;
       }
     }
   }
+`;
+
+export const Button = styled.button`
+  border: 0px;
+  background-color: transparent;
+  height: 2.5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+
+  @media screen and (max-width: 1440px) {
+    font-size: 1.1rem;
+  }
+
+  @media screen and (max-width: 1366px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (max-height: 800px) {
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 412px) {
+    font-size: 1.5rem;
+  }
+
+  :hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.25s ease 0s;
+  }
+`;
+
+export const ButtonMenu = styled.button`
+  border: 0px;
+  background-color: transparent;
+
+  :hover {
+    cursor: pointer;
+  }
+`;
+
+export const DivModal = styled.div`
+  position: absolute;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(1, 1, 1, 0.6);
+  display: flex;
+  flex-direction: column;
+`;
+
+export const ButtonClose = styled.button`
+  border: 0px;
+  background-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  margin-top: -55%;
+  margin-left: 80%;
+  font-size: 1.5rem;
+  font-weight: 700;
+`
+
+export const NavMenu = styled.nav`
+  margin-top: -70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
 `;
