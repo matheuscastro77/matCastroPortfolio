@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose} from "./styled";
+import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose} from "./styled";
 import About from "../../components/About/About";
 import Abilitys from "../../components/Abilitys/Abilitys";
 import Project from "../../components/Project/Project";
@@ -50,7 +50,7 @@ const Home = () => {
   }
 
   return (
-    <>
+    <Main>
       <Nav>
         <div>
           <h1>Matheus Castro</h1>
@@ -94,7 +94,7 @@ const Home = () => {
         {" "}
         <Contact />{" "}
       </div>
-    </>
+    </Main>
   );
 };
 

@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Main = styled.main`
+  overflow-x: hidden;
+`
+
 export const Nav = styled.nav`
   background-image: linear-gradient(
     90deg,
@@ -16,11 +20,12 @@ export const Nav = styled.nav`
   border-bottom: 1px groove white;
   z-index: 1;
 
+
+
   div {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 78%;
 
     @media screen and (max-width: 1440px) {
       width: 90%;
