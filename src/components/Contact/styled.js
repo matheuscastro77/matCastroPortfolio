@@ -20,8 +20,6 @@ export const Main = styled.main`
   @media screen and (max-height: 800px) {
     height: 50vh;
   }
-
-
 `;
 
 export const Container = styled.div`
@@ -44,10 +42,20 @@ export const Container = styled.div`
       font-size: 1.2rem;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
 `;
 
 export const ImgPhone = styled.img`
   width: 40%;
+
+  @media screen and (max-width: 360px) {
+    width: 80%;
+    margin: 0 auto;
+  }
 `;
 
 export const BoxContact = styled.div`
@@ -56,6 +64,11 @@ export const BoxContact = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  @media screen and (max-width: 360px) {
+    width: 100%;
+    margin-bottom: 10%;
+  }
 `;
 
 export const BoxImg = styled.div`
@@ -63,6 +76,10 @@ export const BoxImg = styled.div`
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
+
+  @media screen and (max-width: 360px) {
+    width: 100%;
+  }
 `;
 
 export const Img = styled.img`
@@ -78,6 +95,10 @@ export const Img = styled.img`
 
   @media screen and (max-width: 1366px) {
     width: 32%;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 40%;
   }
 
   :hover {

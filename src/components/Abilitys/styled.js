@@ -16,6 +16,10 @@ export const Main = styled.main`
   @media screen and (max-width: 1280px) {
     height: 60vh;
   }
+
+  @media screen and (max-width: 360px) {
+    height: 70vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -37,7 +41,19 @@ export const Container = styled.div`
 
   img {
     width: 40%;
+
+    @media screen and (max-width: 360px) {
+      width: 80%;
+      margin-top: 15%;
+    }
   }
+
+  @media screen and (max-width: 360px) {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      width: 100%;
+    }
 `;
 
 export const BoxAbilitys = styled.div`
@@ -46,6 +62,10 @@ export const BoxAbilitys = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  @media screen and (max-width: 360px) {
+      width: 90%;
+    }
 `;
 
 export const BoxImg = styled.div`
@@ -53,6 +73,10 @@ export const BoxImg = styled.div`
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
+
+  @media screen and (max-width: 360px) {
+      width:100%;
+    }
 
   div {
     display: flex;
@@ -71,6 +95,10 @@ export const BoxImg = styled.div`
       @media screen and (max-width: 1366px) {
         width: 55%;
       }
+
+      @media screen and (max-width: 360px) {
+      width: 90%;
+    }
 
       :hover {
         cursor: pointer;

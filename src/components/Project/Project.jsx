@@ -7,7 +7,7 @@ import pharma from "../../assets/pharma.png";
 import ecommerce from "../../assets/ecommerce.png";
 import apexcharts from "../../assets/apexcharts.png";
 import project from "../../assets/project.svg";
-import { Main, Body, BoxProject, ContainerProjects, Container } from "./styled";
+import { Main, Body, BoxProject, ContainerProjects, Container, Img } from "./styled";
 
 const Project = () => {
   return (
@@ -132,7 +132,7 @@ const Project = () => {
             </BoxProject>
           </Container>
         </ContainerProjects>
-        <img src={project} />
+        <Img src={project} />
       </Body>
     </Main>
   );

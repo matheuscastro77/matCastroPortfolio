@@ -40,7 +40,15 @@ export const Main = styled.main`
     @media screen and (max-height: 800px) {
       font-size: 1.2rem;
     }
+
+    @media screen and (max-width: 360px) {
+    margin-bottom: 10%;
+    }
   }
+
+  @media screen and (max-width: 360px) {
+    height: 70vh;
+    }
 `;
 
 export const Body = styled.body`
@@ -48,7 +56,7 @@ export const Body = styled.body`
   display: flex;
   justify-content: space-between;
 
-  img {
+  /* img {
     width: 40%;
     height: 115%;
 
@@ -58,14 +66,42 @@ export const Body = styled.body`
 
     @media screen and (max-width: 1280px) {
       height: 110%;
-  }
-  }
+    }
+  } */
+
+  @media screen and (max-width: 360px) {
+    width: 90%;
+    flex-direction: column;
+    }
 `;
+
+export const Img = styled.img`
+  width: 40%;
+    height: 115%;
+
+    @media screen and (max-width: 1366px) {
+      height: 130%;
+    }
+
+    @media screen and (max-width: 1280px) {
+      height: 110%;
+    }
+
+    @media screen and (max-width: 360px) {
+      /* width: 90%;
+      margin: 0 auto; */
+      display: none;
+    }
+`
 
 export const ContainerProjects = styled.div`
   width: 51.5%;
   text-align: center;
   max-height: 70vh;
+  
+  @media screen and (max-width: 360px) {
+    width: 100%;
+    }
 `;
 
 export const Container = styled.div`
@@ -76,15 +112,22 @@ export const Container = styled.div`
   overflow-y: hidden;
   padding-bottom: 2%;
 
+  @media screen and (max-width: 360px) {
+    padding-bottom: 8%;
+    grid-gap: 15px 30px;
+/*     margin-bottom: 10%; */
+  }
+
+
   ::-webkit-scrollbar-track {
-    background-color: #3F3D56;
+    background-color: #3f3d56;
     border-radius: 10px;
   }
   ::-webkit-scrollbar {
     height: 12px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #E6E6E6;
+    background: #e6e6e6;
     border-radius: 10px;
   }
 `;
@@ -114,6 +157,11 @@ export const BoxProject = styled.div`
     height: 28vh;
   }
 
+  @media screen and (max-width: 360px) {
+    width: 50vw;
+    height: 26vh;
+  }
+
   img {
     width: 100%;
     height: 60%;
@@ -123,6 +171,10 @@ export const BoxProject = styled.div`
     width: 50%;
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: 360px) {
+      width: 70%;
+  }
   }
 
   h3 {
@@ -153,6 +205,10 @@ export const BoxProject = styled.div`
       border: 1px solid #e6e6e6;
       margin-bottom: 1%;
     }
+
+    @media screen and (max-width: 360px) {
+      font-size: 0.8rem;
+  }
 
     :hover {
       cursor: pointer;

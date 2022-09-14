@@ -20,7 +20,11 @@ export const Main = styled.main`
   @media screen and (max-height: 800px) {
     height: 75vh;
   }
-`
+
+  @media screen and (max-width: 360px) {
+    height: 90vh;
+  }
+`;
 
 export const Container = styled.div`
   width: 80%;
@@ -29,11 +33,15 @@ export const Container = styled.div`
   align-items: center;
 
   div {
-    color: #E6E6E6;
+    color: #e6e6e6;
     text-align: center;
     width: 60%;
 
-    h2{
+    @media screen and (max-width: 360px) {
+      width: 90%;
+    }
+
+    h2 {
       font-size: 1.8rem;
       margin-bottom: 7%;
 
@@ -60,7 +68,16 @@ export const Container = styled.div`
     }
   }
 
-  img{
+  img {
     width: 30%;
+
+    @media screen and (max-width: 360px) {
+      margin-top: 15%;
+      width: 75%;
+    }
   }
-`
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
