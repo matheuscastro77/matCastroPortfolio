@@ -17,8 +17,12 @@ export const Main = styled.main`
     height: 60vh;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     height: 70vh;
+  }
+
+  @media screen and (max-height: 720px) {
+    height: 85vh;
   }
 `;
 
@@ -42,13 +46,13 @@ export const Container = styled.div`
   img {
     width: 40%;
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 412px) {
       width: 80%;
       margin-top: 15%;
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
@@ -63,7 +67,7 @@ export const BoxAbilitys = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
       width: 90%;
     }
 `;
@@ -74,7 +78,7 @@ export const BoxImg = styled.div`
   margin: 0 auto;
   justify-content: space-around;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
       width:100%;
     }
 
@@ -96,7 +100,7 @@ export const BoxImg = styled.div`
         width: 55%;
       }
 
-      @media screen and (max-width: 360px) {
+      @media screen and (max-width: 412px) {
       width: 90%;
     }
 

@@ -25,6 +25,10 @@ export const Main = styled.main`
     height: 90vh;
   }
 
+  @media screen and (max-width: 412px) {
+    height: 80vh;
+  }
+
   h2 {
     color: #e6e6e6;
     font-size: 1.8rem;
@@ -41,14 +45,10 @@ export const Main = styled.main`
       font-size: 1.2rem;
     }
 
-    @media screen and (max-width: 360px) {
-    margin-bottom: 10%;
+    @media screen and (max-width: 412px) {
+      margin-bottom: 10%;
     }
   }
-
-  @media screen and (max-width: 360px) {
-    height: 70vh;
-    }
 `;
 
 export const Body = styled.body`
@@ -69,39 +69,39 @@ export const Body = styled.body`
     }
   } */
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 90%;
     flex-direction: column;
-    }
+  }
 `;
 
 export const Img = styled.img`
   width: 40%;
-    height: 115%;
+  height: 115%;
 
-    @media screen and (max-width: 1366px) {
-      height: 130%;
-    }
+  @media screen and (max-width: 1366px) {
+    height: 130%;
+  }
 
-    @media screen and (max-width: 1280px) {
-      height: 110%;
-    }
+  @media screen and (max-width: 1280px) {
+    height: 110%;
+  }
 
-    @media screen and (max-width: 360px) {
-      /* width: 90%;
+  @media screen and (max-width: 412px) {
+    /* width: 90%;
       margin: 0 auto; */
-      display: none;
-    }
-`
+    display: none;
+  }
+`;
 
 export const ContainerProjects = styled.div`
   width: 51.5%;
   text-align: center;
   max-height: 70vh;
-  
-  @media screen and (max-width: 360px) {
+
+  @media screen and (max-width: 412px) {
     width: 100%;
-    }
+  }
 `;
 
 export const Container = styled.div`
@@ -112,12 +112,11 @@ export const Container = styled.div`
   overflow-y: hidden;
   padding-bottom: 2%;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     padding-bottom: 8%;
     grid-gap: 15px 30px;
-/*     margin-bottom: 10%; */
+    /*     margin-bottom: 10%; */
   }
-
 
   ::-webkit-scrollbar-track {
     background-color: #3f3d56;
@@ -157,9 +156,13 @@ export const BoxProject = styled.div`
     height: 28vh;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 50vw;
     height: 26vh;
+  }
+
+  @media screen and (max-height: 720px) {
+    height: 30vh;
   }
 
   img {
@@ -172,9 +175,9 @@ export const BoxProject = styled.div`
     display: flex;
     justify-content: space-around;
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 412px) {
       width: 70%;
-  }
+    }
   }
 
   h3 {
@@ -206,9 +209,9 @@ export const BoxProject = styled.div`
       margin-bottom: 1%;
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 412px) {
       font-size: 0.8rem;
-  }
+    }
 
     :hover {
       cursor: pointer;

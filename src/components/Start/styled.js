@@ -20,6 +20,10 @@ export const Main = styled.main`
   @media screen and (max-height: 800px) {
     height: 100vh;
   }
+
+  @media screen and (max-height: 720px) {
+    height: 106vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -85,7 +89,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     margin-top: 15%;
     display: flex;
     flex-direction: column;
@@ -95,7 +99,7 @@ export const Container = styled.div`
 export const ImgDev = styled.img`
   width: 50%;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     margin-top: 35%;
     width: 100%;
   }
@@ -106,7 +110,7 @@ export const DivIcons = styled.div`
   justify-content: space-around;
   width: 75%;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 98%;
     padding-left: 20%;
   }
@@ -125,7 +129,7 @@ export const Img = styled.img`
     transition: all 0.25s ease 0s;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 35%;
   }
 `;

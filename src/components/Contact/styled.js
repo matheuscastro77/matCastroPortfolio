@@ -20,6 +20,10 @@ export const Main = styled.main`
   @media screen and (max-height: 800px) {
     height: 50vh;
   }
+
+  @media screen and (max-height: 720px) {
+    height: 65vh;
+  }
 `;
 
 export const Container = styled.div`
@@ -43,7 +47,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     flex-direction: column-reverse;
     width: 90%;
   }
@@ -52,7 +56,7 @@ export const Container = styled.div`
 export const ImgPhone = styled.img`
   width: 40%;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 80%;
     margin: 0 auto;
   }
@@ -65,7 +69,7 @@ export const BoxContact = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 100%;
     margin-bottom: 10%;
   }
@@ -77,7 +81,7 @@ export const BoxImg = styled.div`
   margin: 0 auto;
   justify-content: space-around;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 100%;
   }
 `;
@@ -97,7 +101,7 @@ export const Img = styled.img`
     width: 32%;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 412px) {
     width: 40%;
   }
 
