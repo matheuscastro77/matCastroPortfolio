@@ -128,7 +128,7 @@ export const ButtonClose = styled.button`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
-  margin-top: -55%;
+  margin-top: -45%;
   margin-left: 80%;
   font-size: 1.5rem;
   font-weight: 700;
