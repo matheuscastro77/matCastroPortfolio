@@ -26,6 +26,7 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 
     @media screen and (max-width: 1440px) {
       width: 90%;
@@ -64,7 +65,7 @@ export const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
 
-      @media screen and (max-width: 412px) {
+      @media screen and (max-width: 415px) {
         display: none;
       }
     }
@@ -110,6 +111,10 @@ export const ButtonMenu = styled.button`
 
   :hover {
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 415px) {
+    display: none;
   }
 `;
 

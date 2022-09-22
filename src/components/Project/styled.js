@@ -25,7 +25,7 @@ export const Main = styled.main`
     height: 90vh;
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     height: 80vh;
   }
 
@@ -45,7 +45,7 @@ export const Main = styled.main`
       font-size: 1.2rem;
     }
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 414px) {
       margin-bottom: 10%;
     }
   }
@@ -69,7 +69,7 @@ export const Body = styled.body`
     }
   } */
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     width: 90%;
     flex-direction: column;
   }
@@ -87,7 +87,7 @@ export const Img = styled.img`
     height: 110%;
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     /* width: 90%;
       margin: 0 auto; */
     display: none;
@@ -99,7 +99,7 @@ export const ContainerProjects = styled.div`
   text-align: center;
   max-height: 70vh;
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     width: 100%;
   }
 `;
@@ -112,7 +112,7 @@ export const Container = styled.div`
   overflow-y: hidden;
   padding-bottom: 2%;
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     padding-bottom: 8%;
     grid-gap: 15px 30px;
     /*     margin-bottom: 10%; */
@@ -156,7 +156,7 @@ export const BoxProject = styled.div`
     height: 28vh;
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     width: 50vw;
     height: 26vh;
   }
@@ -175,7 +175,7 @@ export const BoxProject = styled.div`
     display: flex;
     justify-content: space-around;
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 414px) {
       width: 70%;
     }
   }

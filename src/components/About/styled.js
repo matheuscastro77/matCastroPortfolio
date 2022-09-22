@@ -21,12 +21,12 @@ export const Main = styled.main`
     height: 75vh;
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     height: 90vh;
   }
 
   @media screen and (max-height: 720px) {
-    height: 95vh;
+    height: 100vh;
   }
 `;
 
@@ -41,7 +41,7 @@ export const Container = styled.div`
     text-align: center;
     width: 60%;
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 414px) {
       width: 90%;
     }
 
@@ -75,12 +75,12 @@ export const Container = styled.div`
   img {
     width: 30%;
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 414px) {
       margin-top: 15%;
       width: 75%;
     }
   }
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 414px) {
     display: flex;
     flex-direction: column;
   }
