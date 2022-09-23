@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   overflow-x: hidden;
-`
+`;
 
 export const Nav = styled.nav`
   background-image: linear-gradient(
@@ -20,8 +20,6 @@ export const Nav = styled.nav`
   border-bottom: 1px groove white;
   z-index: 1;
 
-
-
   div {
     display: flex;
     justify-content: space-around;
@@ -32,7 +30,7 @@ export const Nav = styled.nav`
       width: 90%;
     }
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 414px) {
       width: 100%;
     }
     h1 {
@@ -49,9 +47,14 @@ export const Nav = styled.nav`
         font-size: 1.4rem;
       }
 
-      @media screen and (max-height: 800px) {
+      @media screen and (max-width: 1280px) {
         font-size: 1.2rem;
       }
+
+      @media screen and (max-width: 1176px) {
+        font-size: 1.1rem;
+      }
+
       :hover {
         cursor: pointer;
         transform: scale(1.05);
@@ -65,7 +68,7 @@ export const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
 
-      @media screen and (max-width: 415px) {
+      @media screen and (max-width: 414px) {
         display: none;
       }
     }
@@ -82,6 +85,10 @@ export const Button = styled.button`
   font-weight: 600;
   color: white;
 
+  @media screen and (max-width: 1600px) {
+    font-size: 1rem;
+  }
+
   @media screen and (max-width: 1440px) {
     font-size: 1.1rem;
   }
@@ -90,11 +97,15 @@ export const Button = styled.button`
     font-size: 1rem;
   }
 
-  @media screen and (max-height: 800px) {
+  @media screen and (max-width: 1280px) {
     font-size: 0.9rem;
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 1176px) {
+    font-size: 0.8rem;
+  }
+
+  @media screen and (max-width: 414px) {
     font-size: 1.5rem;
   }
 
@@ -137,7 +148,7 @@ export const ButtonClose = styled.button`
   margin-left: 80%;
   font-size: 1.5rem;
   font-weight: 700;
-`
+`;
 
 export const NavMenu = styled.nav`
   margin-top: -70%;

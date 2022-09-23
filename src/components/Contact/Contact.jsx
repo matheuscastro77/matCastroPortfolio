@@ -3,7 +3,7 @@ import { BoxContact, BoxImg, Container, Main, Img, ImgPhone } from './styled'
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import email from '../../assets/e-mail.png'
-import phone from '../../assets/phone-call.png'
+import phone from '../../assets/whatsapp.png'
 import contact from '../../assets/contact.svg'
 
 const Contact = () => {

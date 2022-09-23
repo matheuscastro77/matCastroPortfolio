@@ -13,21 +13,10 @@ export const Main = styled.main`
   justify-content: space-around;
   align-items: center;
 
-  @media screen and (max-width: 1280px) {
-    height: 70vh;
-  }
-
-  @media screen and (max-height: 800px) {
-    height: 100vh;
-  }
-
-  @media screen and (max-height: 720px) {
-    height: 106vh;
-  }
-
   @media screen and (max-width: 414px) {
     height: 100vh;
   }
+
 `;
 
 export const Container = styled.div`
@@ -52,10 +41,6 @@ export const Container = styled.div`
       @media screen and (max-width: 1366px) {
         font-size: 2.2rem;
       }
-
-      @media screen and (max-height: 800px) {
-        font-size: 2rem;
-      }
     }
 
     h2 {
@@ -68,10 +53,6 @@ export const Container = styled.div`
 
       @media screen and (max-width: 1366px) {
         font-size: 1rem;
-      }
-
-      @media screen and (max-height: 800px) {
-        font-size: 0.9rem;
       }
     }
 
@@ -86,19 +67,15 @@ export const Container = styled.div`
       @media screen and (max-width: 1366px) {
         font-size: 1.2rem;
       }
-
-      @media screen and (max-height: 800px) {
-        font-size: 1rem;
-      }
-    }
   }
-
+}
   @media screen and (max-width: 414px) {
     margin-top: 15%;
     display: flex;
     flex-direction: column;
   }
-`;
+
+`
 
 export const ImgDev = styled.img`
   width: 50%;

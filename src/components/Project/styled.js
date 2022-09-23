@@ -7,27 +7,38 @@ export const Main = styled.main`
     rgb(33, 45, 82) 20%,
     rgb(19, 19, 31) 60%
   );
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  @media screen and (max-width: 1366px) {
-    height: 95vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+ /*  @media screen and (max-width: 1366px) {
+    height: 85vh;
   }
 
   @media screen and (max-width: 1280px) {
+    height: 100vh;
+  }
+
+  @media screen and (max-width: 1176px) {
+    height: 100vh;
+  }
+
+  @media screen and (max-width: 1152px) {
     height: 80vh;
   }
 
-  @media screen and (max-height: 800px) {
-    height: 90vh;
+  @media screen and (max-width: 1024px) {
+    height: 85vh;
   }
 
   @media screen and (max-width: 414px) {
     height: 80vh;
-  }
+  } */
 
   h2 {
     color: #e6e6e6;
@@ -41,8 +52,12 @@ export const Main = styled.main`
       font-size: 1.4rem;
     }
 
-    @media screen and (max-height: 800px) {
+    @media screen and (max-width: 1280px) {
       font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1176px) {
+      font-size: 1.1rem;
     }
 
     @media screen and (max-width: 414px) {
@@ -56,18 +71,6 @@ export const Body = styled.body`
   display: flex;
   justify-content: space-between;
 
-  /* img {
-    width: 40%;
-    height: 115%;
-
-    @media screen and (max-width: 1366px) {
-      height: 130%;
-    }
-
-    @media screen and (max-width: 1280px) {
-      height: 110%;
-    }
-  } */
 
   @media screen and (max-width: 414px) {
     width: 90%;
@@ -77,19 +80,9 @@ export const Body = styled.body`
 
 export const Img = styled.img`
   width: 40%;
-  height: 115%;
-
-  @media screen and (max-width: 1366px) {
-    height: 130%;
-  }
-
-  @media screen and (max-width: 1280px) {
-    height: 110%;
-  }
+  margin-top: 8%;
 
   @media screen and (max-width: 414px) {
-    /* width: 90%;
-      margin: 0 auto; */
     display: none;
   }
 `;
@@ -97,25 +90,22 @@ export const Img = styled.img`
 export const ContainerProjects = styled.div`
   width: 51.5%;
   text-align: center;
-  max-height: 70vh;
 
   @media screen and (max-width: 414px) {
     width: 100%;
-  }
+  }  
 `;
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px 50px;
-  overflow: auto;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 20px 35px;
   overflow-y: hidden;
   padding-bottom: 2%;
 
   @media screen and (max-width: 414px) {
     padding-bottom: 8%;
     grid-gap: 15px 30px;
-    /*     margin-bottom: 10%; */
   }
 
   ::-webkit-scrollbar-track {
@@ -134,35 +124,14 @@ export const Container = styled.div`
 export const BoxProject = styled.div`
   display: flex;
   flex-direction: column;
-  height: 28vh;
   width: 19.5vw;
   background-color: #2f2e41;
   align-items: center;
   color: #e6e6e6;
-
-  @media screen and (max-width: 1600px) {
-    height: 30vh;
-  }
-
-  @media screen and (max-width: 1366px) {
-    height: 31vh;
-  }
-
-  @media screen and (max-width: 1280px) {
-    height: 24vh;
-  }
-
-  @media screen and (max-height: 768px) {
-    height: 28vh;
-  }
-
+  
   @media screen and (max-width: 414px) {
     width: 50vw;
     height: 26vh;
-  }
-
-  @media screen and (max-height: 720px) {
-    height: 30vh;
   }
 
   img {
@@ -174,6 +143,11 @@ export const BoxProject = styled.div`
     width: 50%;
     display: flex;
     justify-content: space-around;
+
+
+    @media screen and (max-width: 1024px) {
+      width: 60%;
+    }
 
     @media screen and (max-width: 414px) {
       width: 70%;
@@ -187,6 +161,15 @@ export const BoxProject = styled.div`
 
     @media screen and (max-width: 1366px) {
       font-size: 1rem;
+    }
+
+    @media screen and (max-width: 1280px) {
+      font-size: 0.9rem;
+    }
+
+
+    @media screen and (max-width: 1176px) {
+      font-size: 0.8rem;
     }
   }
 
@@ -206,7 +189,11 @@ export const BoxProject = styled.div`
     @media screen and (max-width: 1366px) {
       font-size: 0.9rem;
       border: 1px solid #e6e6e6;
-      margin-bottom: 1%;
+/*       margin-bottom: 1%;
+ */    }
+
+    @media screen and (max-width: 1176px) {
+      font-size: 0.7rem;
     }
 
     @media screen and (max-width: 412px) {

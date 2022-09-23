@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  height: 75vh;
+  /* height: 75vh; */
   background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,
@@ -13,21 +13,24 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 1280px) {
-    height: 60vh;
-  }
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+  /* @media screen and (max-width: 1280px) {
+    height: 80vh;
+  } */
 
-  @media screen and (max-height: 800px) {
-    height: 75vh;
+  /* @media screen and (max-width: 1176px) {
+    height: 80vh;
+  } */
+
+  /* @media screen and (max-width: 1152px) {
+    height: 60vh;
   }
 
   @media screen and (max-width: 414px) {
     height: 90vh;
-  }
-
-  @media screen and (max-height: 720px) {
-    height: 100vh;
-  }
+  } */
 `;
 
 export const Container = styled.div`
@@ -56,6 +59,14 @@ export const Container = styled.div`
       @media screen and (max-width: 1366px) {
         font-size: 1.4rem;
       }
+
+      @media screen and (max-width: 1280px) {
+      font-size: 1.2rem;
+    }
+
+      @media screen and (max-width: 1176px) {
+        font-size: 1.1rem;
+      }
     }
 
     h3 {
@@ -68,6 +79,10 @@ export const Container = styled.div`
 
       @media screen and (max-width: 1366px) {
         font-size: 0.9rem;
+      }
+
+      @media screen and (max-width: 1176px) {
+        font-size: 0.8rem;
       }
     }
   }

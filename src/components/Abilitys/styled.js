@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  height: 75vh;
-  background-image: linear-gradient(
+/*   height: 75vh;
+ */  background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,
     rgb(33, 45, 82) 20%,
@@ -13,17 +13,28 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
 
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  /* @media screen and (max-width: 1366px) {
+    height: 80vh;
+  }
+
   @media screen and (max-width: 1280px) {
+    height: 70vh;
+  }
+
+  @media screen and (max-width: 1176px) {
+    height: 85vh;
+  }
+
+  @media screen and (max-width: 1152px) {
     height: 60vh;
   }
 
   @media screen and (max-width: 414px) {
     height: 70vh;
-  }
-
-  @media screen and (max-height: 720px) {
-    height: 85vh;
-  }
+  } */
 `;
 
 export const Container = styled.div`
@@ -41,6 +52,14 @@ export const Container = styled.div`
     @media screen and (max-width: 1366px) {
       font-size: 1.4rem;
     }
+
+    @media screen and (max-width: 1280px) {
+      font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1176px) {
+      font-size: 1.1rem;
+    }
   }
 
   img {
@@ -53,11 +72,11 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 414px) {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      width: 100%;
-    }
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
 `;
 
 export const BoxAbilitys = styled.div`
@@ -68,8 +87,8 @@ export const BoxAbilitys = styled.div`
   justify-content: space-evenly;
 
   @media screen and (max-width: 414px) {
-      width: 90%;
-    }
+    width: 90%;
+  }
 `;
 
 export const BoxImg = styled.div`
@@ -79,8 +98,8 @@ export const BoxImg = styled.div`
   justify-content: space-around;
 
   @media screen and (max-width: 414px) {
-      width:100%;
-    }
+    width: 100%;
+  }
 
   div {
     display: flex;
@@ -101,8 +120,8 @@ export const BoxImg = styled.div`
       }
 
       @media screen and (max-width: 414px) {
-      width: 90%;
-    }
+        width: 90%;
+      }
 
       :hover {
         cursor: pointer;
