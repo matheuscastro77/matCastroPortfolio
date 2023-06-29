@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose} from "./styled";
+import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose, Teste} from "./styled";
 import About from "../../components/About/About";
 import Abilitys from "../../components/Abilitys/Abilitys";
 import Project from "../../components/Project/Project";

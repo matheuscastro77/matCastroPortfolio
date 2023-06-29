@@ -6,6 +6,7 @@ import js from "../../assets/js.png";
 import ts from "../../assets/ts.png";
 import html from "../../assets/html.png";
 import react2 from "../../assets/react2.png";
+import threejs from "../../assets/threejs.png";
 
 const Abilitys = () => {
   return (
@@ -21,7 +22,6 @@ const Abilitys = () => {
           <div>
             <img src={ts} />
           </div>
-
           <div>
             <img src={js} />
           </div>
@@ -30,6 +30,9 @@ const Abilitys = () => {
           </div>
           <div>
             <img src={react2} />
+          </div>
+          <div>
+            <img src={threejs} />
           </div>
           </BoxImg>
         </BoxAbilitys>
