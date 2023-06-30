@@ -56,7 +56,7 @@ const Home = () => {
           <h1>Matheus Castro</h1>
           <ButtonMenu onClick={() => menuIsVisible()}><MenuIcon sx={{ fontSize: '28px', color: 'white' }}/></ButtonMenu>
           <container>
-          <Button onClick={scrollToStart}> Start </Button>
+          <Button onClick={scrollToStart}> Home </Button>
           <Button onClick={scrollToAbout}> About </Button>
           <Button onClick={scrollToAbility}> Skills </Button>
           <Button onClick={scrollToProject}> Projects </Button>
@@ -66,11 +66,11 @@ const Home = () => {
         {menu ? <DivModal>
           <ButtonClose onClick={() => menuIsVisible()}>X</ButtonClose>
           <NavMenu>
-          <Button onClick={scrollToStart}> Início </Button>
-          <Button onClick={scrollToAbout}> Sobre </Button>
-          <Button onClick={scrollToAbility}> Habilidades </Button>
-          <Button onClick={scrollToProject}> Projetos </Button>
-          <Button onClick={scrollToContact}> Contato </Button>
+          <Button onClick={scrollToStart}> Home </Button>
+          <Button onClick={scrollToAbout}> About </Button>
+          <Button onClick={scrollToAbility}> Skills </Button>
+          <Button onClick={scrollToProject}> Projects </Button>
+          <Button onClick={scrollToContact}> Contact </Button>
           </NavMenu>
         </DivModal> : null}
       </Nav>
