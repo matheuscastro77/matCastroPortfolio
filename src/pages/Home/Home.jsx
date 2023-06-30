@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose} from "./styled";
 import About from "../../components/About/About";
-import Abilitys from "../../components/Abilitys/Abilitys";
+import Skills from "../../components/Skills/Skills";
 import Project from "../../components/Project/Project";
 import Contact from "../../components/Contact/Contact";
 import Start from "../../components/Start/Start";
@@ -58,7 +58,7 @@ const Home = () => {
           <container>
           <Button onClick={scrollToStart}> Start </Button>
           <Button onClick={scrollToAbout}> About </Button>
-          <Button onClick={scrollToAbility}> Abilitys </Button>
+          <Button onClick={scrollToAbility}> Skills </Button>
           <Button onClick={scrollToProject}> Projects </Button>
           <Button onClick={scrollToContact}> Contact </Button>
           </container>
@@ -84,7 +84,7 @@ const Home = () => {
       </div>
       <div ref={ScrollAbility}>
         {" "}
-        <Abilitys />{" "}
+        <Skills />{" "}
       </div>
       <div ref={ScrollProject}>
         {" "}

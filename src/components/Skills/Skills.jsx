@@ -1,6 +1,6 @@
 import React from "react";
 import { Main, Container, BoxAbilitys, BoxImg } from "./styled";
-import abilitys from "../../assets/static.svg";
+import skills from "../../assets/static.svg";
 import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import ts from "../../assets/ts.png";
@@ -8,13 +8,13 @@ import html from "../../assets/html.png";
 import react2 from "../../assets/react2.png";
 import threejs from "../../assets/threejs.png";
 
-const Abilitys = () => {
+const Skills = () => {
   return (
     <Main>
       <Container>
-        <img src={abilitys} />
+        <img src={skills} />
         <BoxAbilitys>
-          <h2>Abilitys</h2>
+          <h2>Skills</h2>
           <BoxImg>
           <div>
             <img src={css} />
@@ -42,4 +42,4 @@ const Abilitys = () => {
   );
 };
 
-export default Abilitys;
+export default Skills;
