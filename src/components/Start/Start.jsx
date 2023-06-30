@@ -10,9 +10,8 @@ const Start = () => {
     <Main>
       <Container>
         <div>
-          <h2>Oi, eu sou</h2>
           <h1>Matheus Castro</h1>
-          <h3>Desenvolvedor Front-end.</h3>
+          <h3>Front-end Developer</h3>
         </div>
       <ImgDev src={codetyping} />
       </Container>

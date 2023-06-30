@@ -7,7 +7,6 @@ export const Main = styled.main`
     rgb(33, 45, 82) 20%,
     rgb(19, 19, 31) 60%
   );
-  /* height: 80vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,30 +14,6 @@ export const Main = styled.main`
 
   padding-top: 5%;
   padding-bottom: 5%;
-
- /*  @media screen and (max-width: 1366px) {
-    height: 85vh;
-  }
-
-  @media screen and (max-width: 1280px) {
-    height: 100vh;
-  }
-
-  @media screen and (max-width: 1176px) {
-    height: 100vh;
-  }
-
-  @media screen and (max-width: 1152px) {
-    height: 80vh;
-  }
-
-  @media screen and (max-width: 1024px) {
-    height: 85vh;
-  }
-
-  @media screen and (max-width: 414px) {
-    height: 80vh;
-  } */
 
   h2 {
     color: #e6e6e6;
@@ -140,9 +115,13 @@ export const BoxProject = styled.div`
   }
 
   div {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
+
+    :hover{
+      cursor: pointer;
+    }
 
 
     @media screen and (max-width: 1024px) {

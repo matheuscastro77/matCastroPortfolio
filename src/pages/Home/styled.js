@@ -68,6 +68,12 @@ export const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
 
+      :hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 0.25s ease 0s;
+      }
+
       @media screen and (max-width: 414px) {
         display: none;
       }
@@ -84,6 +90,8 @@ export const Button = styled.button`
   font-size: 1.2rem;
   font-weight: 600;
   color: white;
+
+ 
 
   @media screen and (max-width: 1600px) {
     font-size: 1rem;
@@ -109,11 +117,7 @@ export const Button = styled.button`
     font-size: 1.5rem;
   }
 
-  :hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: all 0.25s ease 0s;
-  }
+
 `;
 
 export const ButtonMenu = styled.button`

@@ -7,18 +7,24 @@ const About = () => {
     <Main>
       <Container>
         <div>
-          <h2>Sobre mim</h2>
+          <h2>About me</h2>
           <h3>
-            Meu nome é Matheus Castro, sou um Desenvolvedor Front-end com
-            formação pela Labenu. Atualmente desenvolvo sites com HTML, CSS,
-            JavaScript. Possuo conhecimentos também em Git, React, Redux, Api Restfull,
-            Styled-Components, Hooks.</h3>
-            <h3> Todo o meu curso é guiado via metodoogias ágeis,
-            Kanban/Scrum, além disso, possuo experiências em Node, Knex,
-            TypeScript, MySQL entre outras tecnologias.</h3>
-            <h3> Eu decidi migrar para a área de desenvolvimento web pois aqui
-            eu consegui encontrar algo que realmente me da prazer em aprender e
-            trabalhar todos os dias.
+            My name is Matheus Castro. I'm a Front-end Developer formed by
+            Labenu. I currently work with React, ThreeJs, JavaScript, HTML, and
+            CSS. I also have knowledge in Git, Redux, Api Restful,
+            Styled-Components, and Hooks.
+          </h3>
+          <h3>
+            {" "}
+            My entire course is guided by agile methodologies, Kanban/Scrum, in
+            addition, I have some experience in Node, Knex, TypeScript, and
+            MySQL among other technologies.
+          </h3>
+          <h3>
+            {" "}
+            I decided to migrate to the area of ​​web development because here I
+            managed to find something that gives me pleasure in learning and
+            working every day.
           </h3>
         </div>
         <img src={about} />

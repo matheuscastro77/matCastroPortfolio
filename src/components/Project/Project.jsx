@@ -29,7 +29,7 @@ const Project = () => {
     <Main>
       <Body>
         <ContainerProjects>
-          <h2>Meus Projetos</h2>
+          <h2>Projects</h2>
           <Container>
             <BoxProject>
               <img src={game} />

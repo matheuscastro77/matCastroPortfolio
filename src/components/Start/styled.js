@@ -59,6 +59,7 @@ export const Container = styled.div`
     h3 {
       font-size: 1.6rem;
       margin: 5px 0px 5px 0px;
+      text-align: center;
 
       @media screen and (max-width: 1768px) {
         font-size: 1.4rem;

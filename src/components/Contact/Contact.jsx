@@ -13,11 +13,11 @@ const Contact = () => {
     <Container>
     <ImgPhone src={contact} />
       <BoxContact>
-        <h2>Entrar em contato</h2>
+        <h2>Contact</h2>
         <BoxImg>
         <a href="https://github.com/matheuscastro77" target="_blank"> <Img src={github} /> </a>
         <a href="https://www.linkedin.com/in/matheus-castro-541a57140/" target="_blank"> <Img src={linkedin} />  </a>
-        <a href="mailto:matheuscastro1997@hotmail.com" target="_blank"> <Img src={email} /> </a>
+        <a href="mailto:matheustvcastro1997@gmail.com" target="_blank"> <Img src={email} /> </a>
         {/* <a href="https://api.whatsapp.com/send/?phone=5532999767089&text&app_absent=0" target="_blank"> <Img src={phone} /> </a> */}
         </BoxImg>
       </BoxContact>

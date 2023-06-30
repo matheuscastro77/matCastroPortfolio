@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose, Teste} from "./styled";
+import { Main, Nav, Button, ButtonMenu, DivModal, NavMenu, ButtonClose} from "./styled";
 import About from "../../components/About/About";
 import Abilitys from "../../components/Abilitys/Abilitys";
 import Project from "../../components/Project/Project";
@@ -56,11 +56,11 @@ const Home = () => {
           <h1>Matheus Castro</h1>
           <ButtonMenu onClick={() => menuIsVisible()}><MenuIcon sx={{ fontSize: '28px', color: 'white' }}/></ButtonMenu>
           <container>
-          <Button onClick={scrollToStart}> Início </Button>
-          <Button onClick={scrollToAbout}> Sobre </Button>
-          <Button onClick={scrollToAbility}> Habilidades </Button>
-          <Button onClick={scrollToProject}> Projetos </Button>
-          <Button onClick={scrollToContact}> Contato </Button>
+          <Button onClick={scrollToStart}> Start </Button>
+          <Button onClick={scrollToAbout}> About </Button>
+          <Button onClick={scrollToAbility}> Abilitys </Button>
+          <Button onClick={scrollToProject}> Projects </Button>
+          <Button onClick={scrollToContact}> Contact </Button>
           </container>
         </div>
         {menu ? <DivModal>

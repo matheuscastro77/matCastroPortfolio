@@ -14,7 +14,7 @@ const Abilitys = () => {
       <Container>
         <img src={abilitys} />
         <BoxAbilitys>
-          <h2>Habilidades</h2>
+          <h2>Abilitys</h2>
           <BoxImg>
           <div>
             <img src={css} />
