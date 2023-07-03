@@ -16,7 +16,7 @@ const About = () => {
           </h3>
           <h3>
             {" "}
-            My entire course is guided by agile methodologies, Kanban/Scrum, in
+            My entire course was guided by agile methodologies, Kanban/Scrum, in
             addition, I have some experience in Node, Knex, TypeScript, and
             MySQL among other technologies.
           </h3>
