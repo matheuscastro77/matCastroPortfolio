@@ -12,17 +12,13 @@ import About from "../../components/About/About";
 import Skills from "../../components/Skills/Skills";
 import Project from "../../components/Project/Project";
 import Contact from "../../components/Contact/Contact";
-import Start from "../../components/Start/Start";
 import MenuIcon from "@mui/icons-material/Menu";
+import Start from "../../components/Start/Start";
 import { useContext } from "react";
 import GlobalStateContext from "../../context/GlobalStateContext";
 
 const Home = () => {
   const { menu, setMenu } = useContext(GlobalStateContext);
-
-  var url = window.location.href
-
-  console.log(url);
 
   const ScrollHome = useRef(null);
   const ScrollAbout = useRef(null);
@@ -50,7 +46,6 @@ const Home = () => {
           <ButtonMenu onClick={() => menuIsVisible()}>
             <MenuIcon sx={{ fontSize: "28px", color: "white" }} />
           </ButtonMenu>
-          <Button onClick={() => scrollToSection(ScrollHome)}> {url === 'https://matcastro.vercel.app/' ? <> See my Fun Portfólio </> : <> See my Normal Portfólio </>} </Button>
           <container>
             <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
             <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>

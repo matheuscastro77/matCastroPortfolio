@@ -17,6 +17,15 @@ export const Main = styled.main`
     height: 100vh;
   }
 
+  span{
+
+    :hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.25s ease 0s;
+  }
+  }
+
 `;
 
 export const Container = styled.div`
@@ -28,7 +37,7 @@ export const Container = styled.div`
 
   div {
     color: #e6e6e6;
-    text-align: left;
+    text-align: center;
 
     h1 {
       font-size: 2.8rem;
@@ -96,6 +105,12 @@ export const DivIcons = styled.div`
     width: 98%;
     padding-left: 20%;
   }
+
+  :hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.25s ease 0s;
+  }
 `;
 
 export const Img = styled.img`
@@ -105,13 +120,21 @@ export const Img = styled.img`
     width: 30%;
   }
 
-  :hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: all 0.25s ease 0s;
-  }
-
   @media screen and (max-width: 414px) {
     width: 35%;
   }
 `;
+
+export const Button = styled.button`
+  border: 1px solid white;
+  background-color: transparent;
+  height: 5.5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 20%;
+  border-radius: 10px
+
+`
