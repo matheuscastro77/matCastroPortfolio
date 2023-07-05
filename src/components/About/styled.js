@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  /* height: 75vh; */
   background-image: linear-gradient(
     90deg,
     rgb(53, 69, 117) 5%,
@@ -15,22 +14,6 @@ export const Main = styled.main`
 
   padding-top: 5%;
   padding-bottom: 5%;
-  
-  /* @media screen and (max-width: 1280px) {
-    height: 80vh;
-  } */
-
-  /* @media screen and (max-width: 1176px) {
-    height: 80vh;
-  } */
-
-  /* @media screen and (max-width: 1152px) {
-    height: 60vh;
-  }
-
-  @media screen and (max-width: 414px) {
-    height: 90vh;
-  } */
 `;
 
 export const Container = styled.div`

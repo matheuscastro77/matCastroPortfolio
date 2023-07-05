@@ -31,77 +31,8 @@ const Home = () => {
       top: elementRef.current.offsetTop,
       behavior: 'smooth'
     })
+    setMenu(false);
   }
-
-  const scrollToHome = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-    setMenu(false);
-  };
-
-  const scrollToAbout = () => {
-    window.scrollTo({
-      top: 900,
-      left: 0,
-      behavior: "smooth",
-    });
-    setMenu(false);
-  };
-
-  const scrollToAbility = () => {
-    window.scrollTo({
-      top: 1500,
-      left: 0,
-      behavior: "smooth",
-    });
-    setMenu(false);
-  };
-
-  const scrollToProject = () => {
-    window.scrollTo({
-      top: 2250,
-      left: 0,
-      behavior: "smooth",
-    });
-    setMenu(false);
-  };
-
-  const scrollToContact = () => {
-    window.scrollTo({
-      top: 2900,
-      left: 0,
-      behavior: "smooth",
-    });
-    setMenu(false);
-  };
-
-  // const scrollToHomeMobile = () => {
-  //   ScrollHome.current.scrollIntoView({ behavior: "smooth" });
-  //   setMenu(false);
-  // };
-
-  // const scrollToAboutMobile = () => {
-  //   ScrollAbout.current.scrollIntoView({ behavior: "smooth" });
-  //   setMenu(false);
-  // };
-
-  // const scrollToAbilityMobile = () => {
-  //   ScrollAbility.current.scrollIntoView({ behavior: "smooth" });
-  //   setMenu(false);
-  // };
-
-  // const scrollToProjectMobile = () => {
-  //   ScrollProject.current.scrollIntoView({ behavior: "smooth" });
-  //   setMenu(false);
-  // };
-
-  // const scrollToContactMobile = () => {
-  //   ScrollContact.current.scrollIntoView({ behavior: "smooth" });
-  //   setMenu(false);
-  // };
 
   const menuIsVisible = () => {
     setMenu(!menu);
@@ -123,18 +54,18 @@ const Home = () => {
             <Button onClick={() => scrollToSection(ScrollContact)}> Contact </Button>
           </container>
         </div>
-        {/* {menu ? (
+        {menu ? (
           <DivModal>
             <ButtonClose onClick={() => menuIsVisible()}>X</ButtonClose>
             <NavMenu>
-              <Button onClick={scrollToHomeMobile}> Home </Button>
-              <Button onClick={scrollToAboutMobile}> About </Button>
-              <Button onClick={scrollToAbilityMobile}> Skills </Button>
-              <Button onClick={scrollToProjectMobile}> Projects </Button>
-              <Button onClick={scrollToContactMobile}> Contact </Button>
+            <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
+            <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>
+            <Button onClick={() => scrollToSection(ScrollAbility)}> Skills </Button>
+            <Button onClick={() => scrollToSection(ScrollProject)}> Projects </Button>
+            <Button onClick={() => scrollToSection(ScrollContact)}> Contact </Button>
             </NavMenu>
           </DivModal>
-        ) : null} */}
+        ) : null}
       </Nav>
       <div ref={ScrollHome}>
         <Start />

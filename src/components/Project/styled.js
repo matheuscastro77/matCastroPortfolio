@@ -167,9 +167,7 @@ export const BoxProject = styled.div`
 
     @media screen and (max-width: 1366px) {
       font-size: 0.9rem;
-      border: 1px solid #e6e6e6;
-/*       margin-bottom: 1%;
- */    }
+      border: 1px solid #e6e6e6; }
 
     @media screen and (max-width: 1176px) {
       font-size: 0.7rem;
