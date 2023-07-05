@@ -26,6 +26,13 @@ const Home = () => {
   const ScrollProject = useRef(null);
   const ScrollContact = useRef(null);
 
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth'
+    })
+  }
+
   const scrollToHome = () => {
     window.scrollTo({
       top: 0,
@@ -71,30 +78,30 @@ const Home = () => {
     setMenu(false);
   };
 
-  const scrollToHomeMobile = () => {
-    ScrollHome.current.scrollIntoView({ behavior: "smooth" });
-    setMenu(false);
-  };
+  // const scrollToHomeMobile = () => {
+  //   ScrollHome.current.scrollIntoView({ behavior: "smooth" });
+  //   setMenu(false);
+  // };
 
-  const scrollToAboutMobile = () => {
-    ScrollAbout.current.scrollIntoView({ behavior: "smooth" });
-    setMenu(false);
-  };
+  // const scrollToAboutMobile = () => {
+  //   ScrollAbout.current.scrollIntoView({ behavior: "smooth" });
+  //   setMenu(false);
+  // };
 
-  const scrollToAbilityMobile = () => {
-    ScrollAbility.current.scrollIntoView({ behavior: "smooth" });
-    setMenu(false);
-  };
+  // const scrollToAbilityMobile = () => {
+  //   ScrollAbility.current.scrollIntoView({ behavior: "smooth" });
+  //   setMenu(false);
+  // };
 
-  const scrollToProjectMobile = () => {
-    ScrollProject.current.scrollIntoView({ behavior: "smooth" });
-    setMenu(false);
-  };
+  // const scrollToProjectMobile = () => {
+  //   ScrollProject.current.scrollIntoView({ behavior: "smooth" });
+  //   setMenu(false);
+  // };
 
-  const scrollToContactMobile = () => {
-    ScrollContact.current.scrollIntoView({ behavior: "smooth" });
-    setMenu(false);
-  };
+  // const scrollToContactMobile = () => {
+  //   ScrollContact.current.scrollIntoView({ behavior: "smooth" });
+  //   setMenu(false);
+  // };
 
   const menuIsVisible = () => {
     setMenu(!menu);
@@ -109,14 +116,14 @@ const Home = () => {
             <MenuIcon sx={{ fontSize: "28px", color: "white" }} />
           </ButtonMenu>
           <container>
-            <Button onClick={scrollToHome}> Home </Button>
-            <Button onClick={scrollToAbout}> About </Button>
-            <Button onClick={scrollToAbility}> Skills </Button>
-            <Button onClick={scrollToProject}> Projects </Button>
-            <Button onClick={scrollToContact}> Contact </Button>
+            <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
+            <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>
+            <Button onClick={() => scrollToSection(ScrollAbility)}> Skills </Button>
+            <Button onClick={() => scrollToSection(ScrollProject)}> Projects </Button>
+            <Button onClick={() => scrollToSection(ScrollContact)}> Contact </Button>
           </container>
         </div>
-        {menu ? (
+        {/* {menu ? (
           <DivModal>
             <ButtonClose onClick={() => menuIsVisible()}>X</ButtonClose>
             <NavMenu>
@@ -127,7 +134,7 @@ const Home = () => {
               <Button onClick={scrollToContactMobile}> Contact </Button>
             </NavMenu>
           </DivModal>
-        ) : null}
+        ) : null} */}
       </Nav>
       <div ref={ScrollHome}>
         <Start />
