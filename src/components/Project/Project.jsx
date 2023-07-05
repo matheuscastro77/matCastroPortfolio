@@ -175,13 +175,13 @@ const Project = () => {
               <h3>Fox Ar 3D 8th Wall</h3>
               <div>
                 <a
-                  href="https://github.com/matheuscastro77/Fox-AR-3d/blob/main/README.md"
+                  href="https://github.com/matheuscastro77/Fox-AR-3d"
                   target="_blank"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://github.com/matheuscastro77/Fox-AR-3d/blob/main/README.md"
+                  href="https://github.com/matheuscastro77/Fox-AR-3d"
                   target="_blank"
                 >
                   <button>Demo</button>
