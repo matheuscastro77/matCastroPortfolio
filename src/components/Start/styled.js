@@ -135,6 +135,17 @@ export const Button = styled.button`
   font-weight: 600;
   color: white;
   margin-top: 20%;
-  border-radius: 10px
+  border-radius: 10px;
 
+  @media screen and (max-width: 1366px) {
+    font-size: 1.4rem;
+  }
+
+  @media screen and (max-width: 1176px) {
+    font-size: 1.2rem;
+  }
+
+  @media screen and (max-width: 1175px) {
+    display: none;
+  }
 `
