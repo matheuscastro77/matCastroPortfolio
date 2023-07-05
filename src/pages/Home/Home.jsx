@@ -20,6 +20,10 @@ import GlobalStateContext from "../../context/GlobalStateContext";
 const Home = () => {
   const { menu, setMenu } = useContext(GlobalStateContext);
 
+  var url = window.location.href
+
+  console.log(url);
+
   const ScrollHome = useRef(null);
   const ScrollAbout = useRef(null);
   const ScrollAbility = useRef(null);
@@ -46,6 +50,7 @@ const Home = () => {
           <ButtonMenu onClick={() => menuIsVisible()}>
             <MenuIcon sx={{ fontSize: "28px", color: "white" }} />
           </ButtonMenu>
+          <Button onClick={() => scrollToSection(ScrollHome)}> {url === 'https://matcastro.vercel.app/' ? <> See my Fun Portfólio </> : <> See my Normal Portfólio </>} </Button>
           <container>
             <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
             <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>
