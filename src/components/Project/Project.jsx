@@ -194,13 +194,13 @@ const Project = () => {
               <h3>Fun Portifolio</h3>
               <div>
                 <a
-                  href="https://github.com/matheuscastro77/adding-details-to-the-scene"
+                  href="https://github.com/matheuscastro77/fun-portfolio"
                   target="_blank"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://adding-details-to-the-scene.vercel.app/"
+                  href="https://fun-portfolio-five.vercel.app/"
                   target="_blank"
                 >
                   <button>Demo</button>
