@@ -42,7 +42,7 @@ const Project = () => {
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://github.com/matheuscastro77/marble-race"
+                  href="https://marble-race-mtvc.vercel.app/"
                   target="_blank"
                 >
                   <button>Demo</button>
