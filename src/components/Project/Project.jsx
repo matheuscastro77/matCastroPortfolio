@@ -36,13 +36,13 @@ const Project = () => {
               <h3>Marble Race</h3>
               <div>
                 <a
-                  href="https://github.com/matheuscastro77/create-a-game-with-r3f"
+                  href="https://github.com/matheuscastro77/marble-race"
                   target="_blank"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://create-a-game-with-r3f-iota.vercel.app/"
+                  href="https://github.com/matheuscastro77/marble-race"
                   target="_blank"
                 >
                   <button>Demo</button>
