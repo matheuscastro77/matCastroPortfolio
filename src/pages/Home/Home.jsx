@@ -42,7 +42,7 @@ const Home = () => {
     <Main>
       <Nav>
         <div>
-          <h1>Matheus Castro</h1>
+          <h1 className="">Matheus Castro</h1>
           <ButtonMenu onClick={() => menuIsVisible()}>
             <MenuIcon sx={{ fontSize: "28px", color: "white" }} />
           </ButtonMenu>

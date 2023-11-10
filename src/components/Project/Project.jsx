@@ -248,15 +248,18 @@ const Project = () => {
 
             <BoxProject>
               <img src={pharma} />
-              <h3>Pharma</h3>
+              <h3>Netflix Clone With Trailers</h3>
               <div>
                 <a
-                  href="https://github.com/matheuscastro77/-FrontEndChallenge-COODESH"
+                  href="https://github.com/matheuscastro77/netflix-Clone"
                   target="_blank"
                 >
                   <button>GitHub</button>
                 </a>
-                <a href="https://coodesh-pharma.vercel.app/" target="_blank">
+                <a
+                  href="https://netflix-clone-with-trailer.vercel.app/"
+                  target="_blank"
+                >
                   <button>Demo</button>
                 </a>
               </div>
