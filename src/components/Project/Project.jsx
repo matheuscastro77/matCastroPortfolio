@@ -3,7 +3,7 @@ import covidDaily from "../../assets/covid-daily.png";
 import pokemon from "../../assets/pokemon.png";
 import slaca from "../../assets/slaca.png";
 import meta from "../../assets/meta.png";
-import pharma from "../../assets/pharma.png";
+import netflix from "../../assets/netflix.png";
 import ecommerce from "../../assets/ecommerce.png";
 import apexcharts from "../../assets/apexcharts.png";
 import fox3d from "../../assets/fox3d.png";
@@ -41,10 +41,7 @@ const Project = () => {
                 >
                   <button>GitHub</button>
                 </a>
-                <a
-                  href="https://marble-race-mtvc.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://marble-race-mtvc.vercel.app/" target="_blank">
                   <button>Demo</button>
                 </a>
               </div>
@@ -247,7 +244,7 @@ const Project = () => {
             </BoxProject>
 
             <BoxProject>
-              <img src={pharma} />
+              <img src={netflix} />
               <h3>Netflix Clone With Trailers</h3>
               <div>
                 <a
